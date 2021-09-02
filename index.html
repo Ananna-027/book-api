@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Book Archive</title>
+</head>
+
+<body>
+    <!-- search section -->
+
+    <header>
+
+        <div class="container d-flex justify-content-center">
+
+
+            <div class="input-group mb-3 w-50 pt-5">
+
+                <input id="search-field" type="text" class="form-control" placeholder="Search from book archive"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <!-- button -->
+                <button id="search-btn" class="btn btn-outline-danger" type="button" id="button-addon2">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- show item -->
+    <main>
+
+        <div class="container">
+
+            <div id="count-result"></div>
+
+            <div class="row g-5" id="show-items"></div>
+        </div>
+    </main>
+
+    <!-- javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
